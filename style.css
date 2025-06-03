@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    font-family:sans-serif ;
+    background:blue ;
+}
+.CV{
+    display: flex;
+    max-width: 900px;
+    margin: 35px auto;
+    background: greenyellow;
+    box-shadow: 0 0 10px rgb(0, 0,0.2);
+    flex-wrap: wrap;
+
+}
+aside{
+    flex: 1 1 250px;
+    background:brown ;
+    color: aqua;
+    padding: 20px;
+}
+aside image{
+    width: 100px;
+    border-radius: 8px;
+    margin-bottom:34px ;
+}
+aside h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 9px;
+}
+main{
+    flex: 2 1 600px;
+    padding: 30px;
+}
+header h1{
+    margin: 0px;
+}
+h2{
+    color: blueviolet;
+    border-bottom: 1px solid beige;
+}
+@media print{
+    body{
+        .CV
+        box-shadow: none;
+    }
+}
